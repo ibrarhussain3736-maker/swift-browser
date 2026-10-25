@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Swift Browser</string>
+    <string name="settings">Settings</string>
+    <string name="address_hint">Search or type URL</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="home">Home</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="more">More</string>
+    <string name="reload">Reload</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="bookmark_hint">Tap to open, long-press to delete</string>
+    <string name="no_bookmarks">No bookmarks yet. Tap the star to save a page.</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="bookmark_removed">Bookmark removed</string>
+    <string name="close">Close</string>
+    <string name="incognito">Incognito mode</string>
+    <string name="incognito_on">Incognito on – data is wiped when you turn it off or exit</string>
+    <string name="incognito_off">Incognito off – session data cleared</string>
+    <string name="no_app">No app found to open this link</string>
+    <string name="downloading">Downloading %1$s</string>
+    <string name="storage_permission">Allow storage permission, then retry the download</string>
+    <string name="share">Share page</string>
+    <string name="desktop_site">Desktop site</string>
+    <string name="clear_data">Clear browsing data</string>
+    <string name="clear_data_confirm">Cookies, site data and cache will be deleted.</string>
+    <string name="clear">Clear</string>
+    <string name="cleared">Browsing data cleared</string>
+</resources>

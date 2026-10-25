@@ -1,0 +1,36 @@
+<resources>
+    <string-array name="search_entries">
+        <item>DuckDuckGo</item>
+        <item>Google</item>
+        <item>Bing</item>
+        <item>Brave Search</item>
+    </string-array>
+    <string-array name="search_values">
+        <item>https://duckduckgo.com/?q=%s</item>
+        <item>https://www.google.com/search?q=%s</item>
+        <item>https://www.bing.com/search?q=%s</item>
+        <item>https://search.brave.com/search?q=%s</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>System default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="text_entries">
+        <item>Small</item>
+        <item>Default</item>
+        <item>Large</item>
+        <item>Extra large</item>
+    </string-array>
+    <string-array name="text_values">
+        <item>85</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+</resources>

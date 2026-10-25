@@ -1,0 +1,9 @@
+<resources>
+    <color name="primary">#4F46E5</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#1B1B1F</color>
+    <color name="field">#F0F2F9</color>
+    <color name="divider">#E3E5EE</color>
+    <color name="incognito">#3B3558</color>
+</resources>

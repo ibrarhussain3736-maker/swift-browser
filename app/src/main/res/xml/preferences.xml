@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="General" app:iconSpaceReserved="false">
+        <ListPreference
+            app:key="search_engine"
+            app:title="Search engine"
+            app:entries="@array/search_entries"
+            app:entryValues="@array/search_values"
+            app:defaultValue="https://duckduckgo.com/?q=%s"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            app:key="homepage"
+            app:title="Homepage"
+            app:defaultValue="https://duckduckgo.com"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Appearance" app:iconSpaceReserved="false">
+        <ListPreference
+            app:key="theme"
+            app:title="Theme"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:defaultValue="system"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            app:key="text_size"
+            app:title="Page text size"
+            app:entries="@array/text_entries"
+            app:entryValues="@array/text_values"
+            app:defaultValue="100"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Privacy &amp; security" app:iconSpaceReserved="false">
+        <SwitchPreferenceCompat
+            app:key="javascript"
+            app:title="JavaScript"
+            app:summary="Required by most modern websites"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            app:key="block_popups"
+            app:title="Block pop-ups"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            app:key="https_only"
+            app:title="HTTPS-only mode"
+            app:summary="Upgrade http:// links to https://"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            app:key="third_party_cookies"
+            app:title="Third-party cookies"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            app:key="clear_on_exit"
+            app:title="Clear data on exit"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <Preference
+            app:key="clear_data"
+            app:title="Clear browsing data"
+            app:summary="Cookies, site data and cache"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="About" app:iconSpaceReserved="false">
+        <Preference
+            app:key="version"
+            app:title="Swift Browser"
+            app:selectable="false"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

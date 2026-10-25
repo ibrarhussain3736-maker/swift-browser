@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_share" android:title="@string/share" />
+    <item android:id="@+id/action_bookmarks" android:title="@string/bookmarks" />
+    <item android:id="@+id/action_desktop" android:title="@string/desktop_site" android:checkable="true" />
+    <item android:id="@+id/action_incognito" android:title="@string/incognito" android:checkable="true" />
+    <item android:id="@+id/action_settings" android:title="@string/settings" />
+</menu>
